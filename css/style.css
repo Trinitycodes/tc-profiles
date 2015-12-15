@@ -1,0 +1,111 @@
+/* Style for the Profiles */
+
+.tc-profile-class .profile-image-small {
+	display: none;
+}
+
+.tc-profile-class .profile-header {
+	display: table;
+	overflow: hidden;
+	padding: 0px;
+	margin-top: 70px;
+	table-layout: fixed;
+	text-align: right;
+	width: 100%;
+	position: relative;
+}
+
+.tc-profile-class .profile-header .profile-image-section {
+	padding: 15% 20%;
+
+	background: transparent;
+	background: rgba(54, 61, 69,.9);
+	color: #fff;
+
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+
+}
+
+.tc-profile-class .profile-header .entry-title a,
+.tc-profile-class .profile-header h4 {
+	color: #fff;
+}
+
+.tc-profile-class .profile-image {
+	position: absolute;
+	margin-top: -20%;
+	margin-left: 10%;
+}
+
+.tc-profile-class article {
+	margin-top: 30px;
+}
+
+@media only screen and (max-width: 1480px) {
+
+	.tc-profile-class article {
+		margin-top: 40px;
+	}
+
+	.tc-profile-class .profile-image {
+		margin-top: -25%;
+	}
+}
+
+@media only screen and (max-width: 1180px) {
+
+	.tc-profile-class .profile-image {
+		margin-top: -30%;
+	}
+
+	.tc-profile-class article {
+		margin-top: 40px;
+	}
+
+	.tc-profile-class .archive-header-image {
+		width: 400px;
+	}
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+	.tc-profile-class .profile-image {
+		display: none;
+	}
+
+	.tc-profile-class .profile-image-small {
+		display: initial;
+	}
+
+	.tc-profile-class .profile-header {
+		margin-top: 0;
+	}
+
+}
+
+@media only screen and (max-width: 480px) {
+
+	.tc-profile-class .profile-image {
+		display: initial;
+		position: relative;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.tc-profile-class .profile-image-small {
+		display: none;
+	}
+
+	.tc-profile-class .profile-header .profile-image-section {
+		padding: 15% 5%;
+	}
+
+	.tc-profile-class .profile-header {
+		text-align: center;
+		margin-bottom: 50px;
+	}
+
+}
